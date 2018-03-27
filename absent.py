@@ -31,6 +31,8 @@ of length X, then the camera file is "new".
 
 If the library does have one/some files of length X, I need to examine more closely.
 I'll use "filecmp" to test each of those library files against the camera one.
+
+The pre-check using lengths is an example of a Bloom Filter, https://en.wikipedia.org/wiki/Bloom_filter
 """
 
 import os
